@@ -9,6 +9,10 @@
     <!-- bootsrap -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
     <!-- icon pack -->
     <link rel="stylesheet" href="../all.min.css">
 
@@ -59,7 +63,7 @@
             </div>
         </div>
         <!-- contanet start -->
-        <div class="container  " id="pages">
+        <div class="container " id="pages">
             <div class="row">
                 <div class="col gx-5">
                     <div class="tx">
@@ -129,6 +133,42 @@
 
 
             </div>
+            <div class="row">
+                <div class="col">
+
+                   
+                        <div class="title">
+                            <div class="im-1">
+                                <img src="./img/logo-2" alt="">
+                            </div>
+                            <div class="tet">
+                                <h2>165+ RENTAL FLEET BRANDS</h2>
+                            </div>
+                            <div class="im-2">
+                                <img src="./img/logo-2" alt="">
+                            </div>
+                           
+                        </div>
+                </div>
+            </div>
+             <div class="row"> 
+                 <div class="slid">
+                     <div class="hero-sld owl-carousel">
+                         <img src="./img/Buick.png" alt="">
+                         <img src="./img/BYD.png" alt="">
+                         <img src="./img/Cadillac.png" alt="">
+                         <img src="./img/Caterham.png" alt="">
+                         <img src="./img/Bugatti.png" alt="">
+                         <img src="./img/Caparo.png" alt="">
+                         <img src="./img/Carlsson.png" alt="">
+                        </div>
+                    </div>    
+             </div>
+
+
+
+
+
 
         </div>
     </div>
@@ -140,6 +180,27 @@
 
 </body>
 <script src="./js/demo.js"></script>
+<script src="./js/owl.carousel.min.js"></script>
 <script src="./js/bootstrap.bundle.min.js"></script>
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        loop:true,
+        autoplay:true,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 5
+            }
+        }
+    })
+</script>
 
 </html>

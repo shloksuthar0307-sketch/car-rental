@@ -309,3 +309,56 @@ sub li {
     font-family: "Anta", sans-serif;
     color: #CDCDCF;
 }
+
+
+.title{
+    width: 1140px;
+    height: 42px;
+    display: flex;
+}
+.im-1{
+    width: 51px;
+    height: 44px;
+    margin-left: 25%;
+}
+.im-1 img{
+    width: 45px;
+    height: 100%;
+    object-fit: cover;
+}
+.tet{
+    width: 492px;
+    height: 42px;
+    color: white;
+    font-size: 16px;
+    font-family: tomorrow, sans-serif;
+    white-space: nowrap;
+    margin-left: 25px;
+}
+.im-2{
+    width: 51px;
+    height: 44px;
+    margin-left: 25px;
+}
+.im-2 img{
+    width: 51px;
+    height: 44px;
+}
+.slid{
+    width: 1440px;
+    height: 135pxpx;
+    margin-top: 100px;
+}
+.hero-sld{
+    width: 50px;
+    height: 20px;
+    display: flex;
+    margin-top: 20px;
+}
+.hero-sld img{
+    width: 10%;
+    height:75px;
+    margin-right: 100px;
+    /* object-fit: cover; */
+    /* border-radius: 10px; */
+}
