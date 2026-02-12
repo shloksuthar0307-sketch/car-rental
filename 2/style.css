@@ -12,7 +12,7 @@ body {
 }
 
 .container-1 {
-    width: 100vw;
+    width: 1522px;
     height: 100vh;
     background-color: black;
 }
@@ -58,7 +58,8 @@ body {
     top: 20px;
     padding: 0;
     right: 0px;
-    /* background-color: black; */
+    z-index: 99999;
+    background-color: black;
 }
 
 .submen li {
@@ -76,7 +77,9 @@ body {
     color: red;
 }
 
-.menu-1 li:hover .submen a {
+.menu-1 li:focus-within .submen a ,
+.menu-1 li:hover .submen a
+{
     display: block;
 }
 
@@ -88,6 +91,8 @@ body {
     right: 0px;
     flex-direction: column;
     height: 10px;
+    z-index: 99999;
+    background-color: black;
 }
 
 sub li {
@@ -105,14 +110,19 @@ sub li {
     color: red;
 }
 
-.menu-1 li:hover .sub a {
+.menu-1 li:focus-within .sub a,
+    .menu-1 li:hover .sub a
+    {
     display: block;
+}
+.r-m-btn{
+    margin-top: -10px;
 }
 
 .r-m-btn a {
     color: black;
     border-radius: 5px;
-    margin-left: -100px;
+    margin-left: -120px;
     padding: 16px 24px;
     background-color: aliceblue;
     text-decoration: none;
@@ -126,10 +136,9 @@ sub li {
 }
 
 .container {
-    width: 1520.8px;
+    width: 1400px;
     height: 847px;
     margin-top: 100px;
-    /* margin-left: 50px; */
 }
 
 .tx {
@@ -220,7 +229,7 @@ sub li {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: 3px solid #0b0616;
+    border: 3px solid #ffffff;
     margin-left: -18px;
 }
 
@@ -230,7 +239,6 @@ sub li {
 
 /* rating box */
 .rating-box {
-    /* background: #0b0616; */
     padding: 14px 18px;
     border-radius: 6px;
     color: #7E7C80;
@@ -269,9 +277,7 @@ sub li {
     position: absolute;
     width: 500px;
     height: 520px;
-    /* border-radius: 50%; */
     background-image: url(./img/image-2.png);
-    /* background: linear-gradient(180deg, #1aff4c, #0dbb3c) url(./img/image-2.png); */
     right: -50;
     background-size: cover;
     top: -90px;
@@ -295,7 +301,6 @@ sub li {
     position: absolute;
     z-index: 9999;
     color: white;
-    /* color: black; */
 }
 
 .txt-1 {
@@ -303,8 +308,7 @@ sub li {
     text-align: center;
     font-family: "Anta", sans-serif;
 }
-
-.txt-2 {
+.text-2 {
     font-size: 14px;
     font-family: "Anta", sans-serif;
     color: #CDCDCF;
@@ -315,6 +319,8 @@ sub li {
     width: 1140px;
     height: 42px;
     display: flex;
+    margin-top: 150px;
+
 }
 .im-1{
     width: 51px;
@@ -338,7 +344,7 @@ sub li {
 .im-2{
     width: 51px;
     height: 44px;
-    margin-left: 25px;
+    margin-left: -20px;
 }
 .im-2 img{
     width: 51px;
@@ -355,10 +361,53 @@ sub li {
     display: flex;
     margin-top: 20px;
 }
-.hero-sld img{
-    width: 10%;
-    height:75px;
-    margin-right: 100px;
-    /* object-fit: cover; */
-    /* border-radius: 10px; */
+.box-1{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin-right: 10px; 
+}
+.box-2{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin-right: 10px;
+}.box-3{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin-right: 10px;
+}.box-4{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin-right: 10px;
+}.box-5{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin-right: 10px;
+}.box-6{
+    width: 128px;
+    height: 1028x;
+    border-radius: 50%;
+    margin-right: 10px;
+}.box-7{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.tt{
+    width: 1520px;  
+    height: 78px;
+}
+.tt p{
+    text-align: center;
+    width: 558px;
+    height: 78px;
+    margin: 150px 0px 150px 375px;
+    font-size: 16px;
+    font-family: tomorrow, sans-serif;
+    color: white;
 }
